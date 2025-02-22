@@ -66,7 +66,8 @@ const TeamsPage = () => {
 
       {/* Mobile screens */}
       <div className="block lg:hidden">
-        <MobileTeamComponent teamSelect={teamSelect} />
+        <MobileTeamComponent teamSelect={teamSelect} onTeamChange={(teamName) => setSelectedTeam(teamName)}/>
+
       </div>
 
       <div className="w-screen text-sm lg:text-md flex justify-center max-[1024px]:hidden">

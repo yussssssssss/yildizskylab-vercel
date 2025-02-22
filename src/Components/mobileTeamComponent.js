@@ -1,25 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TeamsData from "../Data/teamsData";
 import { FaAnglesRight, FaAnglesLeft } from "react-icons/fa6";
 
-const MobileTeamComponent = ({ teamSelect }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+const MobileTeamComponent = ({ teamSelect, onTeamChange }) => {
+  const [index, setIndex] = useState(0);
+  const [teams, setTeams] = useState([]);
 
-  const teams = TeamsData[teamSelect];
+  useEffect(() => {
+    const newTeams = TeamsData[teamSelect] || [];
+    setTeams(newTeams);
+    setIndex(0);
+    if (newTeams[0]) onTeamChange(newTeams[0].name);
+  }, [teamSelect]);
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === teams.length - 1 ? 0 : prevIndex + 1
-    );
+    const newIndex = (index + 1) % teams.length;
+    setIndex(newIndex);
+    onTeamChange(teams[newIndex].name);
   };
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? teams.length - 1 : prevIndex - 1
-    );
+    const newIndex = (index - 1 + teams.length) % teams.length;
+    setIndex(newIndex);
+    onTeamChange(teams[newIndex].name);
   };
 
-  const selectedTeam = teams[currentIndex];
+  const selectedTeam = teams[index] || {};
 
   return (
     <div className="relative w-full flex flex-col items-center">
@@ -37,11 +43,11 @@ const MobileTeamComponent = ({ teamSelect }) => {
             key={selectedTeam.name}
             className="flex justify-center items-center w-24 h-24 bg-customLightPink rounded-full ring-customAccent p-2"
           >
-            <img
-              src={selectedTeam.logo}
-              alt={`${selectedTeam.name} logo`}
-              className="object-cover rounded-full w-full h-full"
-            />
+              <img
+                src={selectedTeam.logo}
+                alt={`${selectedTeam.name} logo`}
+                className="object-cover rounded-full w-full h-full"
+              />
           </div>
         </div>
 
@@ -58,9 +64,9 @@ const MobileTeamComponent = ({ teamSelect }) => {
         <h2 className="text-customLightPink text-lg tracking-wide">
           {selectedTeam.name}
         </h2>
-        <p className="font-inter text-center text-customLightPink tracking-widest text-lg px-12 mt-4">
-          {selectedTeam.details}
-        </p>
+          <p className="font-inter text-center text-customLightPink tracking-widest text-lg px-12 mt-4">
+            {selectedTeam.details}
+          </p>
       </div>
     </div>
   );
