@@ -56,7 +56,7 @@ const TeamsData = {
         {
             "name": "organizasyon",
             "logo": skylabLogo,
-            "details": "Organizasyon ekibi olarak sene içerisinde ARTLAB : Yapay Zeka Zirvesi, SKYDAYS : Türkiye'nin En Büyük Siber Güvenlik Zirvesi, YILDIZ JAM : Oyun Geliştirme Zirvesi ve Yarışması olmak üzere üç büyük organizasyon düzenliyoruz. Bunların yanı sıra mezunlarımızla buluştuğumuz, iş hayatını tanımamızda ve bağlantılar kurmamızda yardımcı olan söyleşi temalı BİZBİZE etkinliğimiz ve sosyal sorumluluklarımızı yerine getirmemizi sağlayan etkinliklerimizle hem kulübümüze hem üniversitemize sosyal ve akademik anlamda değer sağlamayı amaçlıyoruz."
+            "details": "Organizasyon ekibi olarak sene içerisinde ARTLAB : Yapay Zeka Zirvesi, SKYDAYS : Türkiye'nin En Büyük Siber Güvenlik Etkinliği, YILDIZ JAM : Oyun Geliştirme Zirvesi ve Yarışması olmak üzere üç büyük organizasyon düzenliyoruz. Bunların yanı sıra mezunlarımızla buluştuğumuz, iş hayatını tanımamızda ve bağlantılar kurmamızda yardımcı olan söyleşi temalı BİZBİZE etkinliğimiz ve sosyal sorumluluklarımızı yerine getirmemizi sağlayan etkinliklerimizle hem kulübümüze hem üniversitemize sosyal ve akademik anlamda değer sağlamayı amaçlıyoruz."
           },
           {
             "name": "gecekodu",

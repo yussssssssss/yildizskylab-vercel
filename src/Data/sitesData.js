@@ -11,7 +11,7 @@ import skylabLogo from "../Assets/Images/skylab-logo.png";
 
 const sitesData = [
   {
-    name: "SKYDAYS: Türkiyenin En Büyük Siber Güvenlik Zirvesi",  
+    name: "SKYDAYS: Türkiyenin En Büyük Siber Güvenlik Etkinliği",  
     link: "https://skydays.yildizskylab.com",
     logo: skydaysLogo,
   },
