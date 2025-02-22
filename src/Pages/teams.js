@@ -87,7 +87,7 @@ const TeamsPage = () => {
             rel="noopener noreferrer"
             className="bg-customAccent text-white py-3 px-8 rounded-lg hover:bg-opacity-90 transition-colors text-center text-sm lg:text-base"
           >
-            SKY LAB Arge Ekiplerine katılmak istiyorsan tıkla
+            SKY LAB Arge Ekiplerine katılmak istiyorsan tıkla!
           </a>
         </div>
       )}
@@ -101,7 +101,21 @@ const TeamsPage = () => {
             rel="noopener noreferrer"
             className="bg-customAccent text-white py-3 px-8 rounded-lg hover:bg-opacity-90 transition-colors text-center text-sm lg:text-base"
           >
-            SKYMEDYA ekibine katılmak istiyorsan tıkla
+            SKYMEDYA ekibine katılmak istiyorsan tıkla!
+          </a>
+        </div>
+      )}
+
+      {/* Socilan Butonu */}
+      {teamSelect === 'social' && selectedTeam === 'socilab' && (
+        <div className="w-screen flex justify-center mt-6 mb-8">
+          <a
+            href="http://skyl.app/socilab-basvuru-formu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-customAccent text-white py-3 px-8 rounded-lg hover:bg-opacity-90 transition-colors text-center text-sm lg:text-base"
+          >
+            SOCILAB ekibine katılmak istiyorsan tıkla!
           </a>
         </div>
       )}
