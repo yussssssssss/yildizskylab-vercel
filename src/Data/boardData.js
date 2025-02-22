@@ -11,7 +11,7 @@ export const boardMembers = [
       firstName: 'Yusuf',
       lastName: 'Açmacı',
       department: 'Başkan Yardımcısı',
-      photo: { photoUrl: 'https://media.licdn.com/dms/image/v2/D4D03AQECNpmhzLhaqQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1700398212801?e=1745452800&v=beta&t=iCdLU1xZMFDarC1FxEIkpqQpgmn2-ABBaypitQQtHc4' },
+      photo: { photoUrl: 'https://media.licdn.com/dms/image/v2/D4D03AQGn7mO9UyIPqA/profile-displayphoto-shrink_400_400/B4DZUuipg8G4Ag-/0/1740242590574?e=1745452800&v=beta&t=BQ7z4iqmhpiLk32Dpg4yPZQej_gsmWuyIVJ8ncCmAFs'},
       linkedin: 'https://www.linkedin.com/in/yusuf-acmaci/',
     },
     {
