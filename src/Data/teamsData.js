@@ -61,7 +61,7 @@ const TeamsData = {
           {
             "name": "gecekodu",
             "logo": gecekoduLogo,
-            "details": "Haftanın bir günü toplanarak sabaha kadar ilgi alanlarımıza bağlı olarak zaman zaman ekipler halinde zaman zaman bireysel çalışmalar yapıyoruz. Farklı alanlarda Workshop veriyor ve gruplar halinde veya bireysel çalışmalarla projeler geliştiriyoruz."
+            "details": "3 Yıldır haftanın bir günü toplanarak sabaha kadar ilgi alanlarımıza bağlı olarak zaman zaman ekipler halinde zaman zaman bireysel çalışmalar yapıyoruz. Farklı alanlarda Workshop veriyor ve gruplar halinde veya bireysel çalışmalarla projeler geliştiriyoruz. Geçtiğimiz 3 yılda İstanbul'da bu etkinliği düzenlemenin yanında 1.5 yıl Ankara'da 1 yıl Eskişehir'de ve yine 1 yıl da Malatya'da Gecekodu'nu düzenledik. Birçok projenin ve ekiplerin doğduğu Gecekodu hala her cuma Yıldız Teknik Üniversitesi Davutpaşa Kampüsünde düzenlemeye devam ediyor."
           },
           {
             "name": "socilab",

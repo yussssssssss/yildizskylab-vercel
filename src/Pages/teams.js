@@ -120,6 +120,28 @@ const TeamsPage = () => {
           </a>
         </div>
       )}
+
+     {/* gecekodu butonları */}
+{teamSelect === 'social' && selectedTeam === 'gecekodu' && (
+  <div className="w-screen flex justify-center mt-6 mb-8 gap-4">
+    <a
+      href="https://skyl.app/gecekodu-katilim-formu"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-customAccent text-white py-3 px-8 rounded-lg hover:bg-opacity-90 transition-colors text-center text-sm lg:text-base"
+    >
+      GECEKODU'na katılmak istiyorsan tıkla!
+    </a>
+    <a
+      href="https://skyl.app/gecekodu-ekip-basvuru-formu"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-customAccent text-white py-3 px-8 rounded-lg hover:bg-opacity-90 transition-colors text-center text-sm lg:text-base"
+    >
+      GECEKODU ekibine katılmak istiyorsan tıkla!
+    </a>
+  </div>
+)}
     </section>
   );
 };
