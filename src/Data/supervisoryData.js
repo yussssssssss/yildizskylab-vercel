@@ -9,7 +9,7 @@ export const supervisoryMembers = [
       lastName: 'Avcı',
       department: 'Denetim Kurulu Başkanı',
       photo: bahadiravci,
-      linkedin: 'https://www.linkedin.com/in/bahar-erda%C4%9F-371b1a20a/',
+      linkedin: 'https://www.linkedin.com/in/osmanbahadiravci/',
     },
     {
       firstName: 'Fatih',
