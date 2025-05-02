@@ -10,7 +10,7 @@ const SitesPage = () => {
     >
       {/* Header */}
       <div className="w-screen flex justify-center tracking-widest">
-        <h2 className="text-customAccent text-3xl lg:text-5xl">SİTELER</h2>
+        <h2 className="text-customAccent text-3xl lg:text-5xl">SİTELERİMİZ</h2>
       </div>
 
       {/* Sites Grid */}

@@ -41,13 +41,23 @@ const sitesData = [
     logo: gecekoduLogo,
   },
   {
+    name: "SKYCLOUD: SKY LAB CLOUD SISTEMI",
+    link: "https://skycloud.yildizskylab.com",
+    logo: skylabLogo,
+  },
+  {
     name: "SKYSEC Articles",
     link: "https://skysec.yildizskylab.com",
     logo: skysecLogo,
   },
   {
-    name: "Oda",
+    name: "Oda: SKY LAB ODA DURUMU",
     link: "https://oda.yildizskylab.com",
+    logo: skylabLogo,
+  },
+  {
+    name: "DURUM: SKY LAB SUNUCU DURUMLARI",
+    link: "https://status.yildizskylab.com",
     logo: skylabLogo,
   },
   {

@@ -9,6 +9,7 @@ import NewsPage from "./Pages/news";
 import SitesPage from "./Pages/sites";
 import Footer from "./Components/footer";
 import TeamsPage from "./Pages/teams";
+import SupervisoryPage from "./Pages/supervisory";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         */}
       <SitesPage />
       <BoardPage />
+      <SupervisoryPage />
       <Footer />
     </div>
   );
