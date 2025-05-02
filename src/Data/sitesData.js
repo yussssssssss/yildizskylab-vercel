@@ -47,7 +47,7 @@ const sitesData = [
   },
   {
     name: "SKYLAPP: SKY LAB LİNK KISALTICI",
-    link: "https://skypdf.yildizskylab.com",
+    link: "https://skylapp.yildizskylab.com",
     logo: skylabLogo,
   },
   {
