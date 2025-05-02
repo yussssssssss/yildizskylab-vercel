@@ -46,6 +46,11 @@ const sitesData = [
     logo: skylabLogo,
   },
   {
+    name: "SKYLAPP: SKY LAB LİNK KISALTICI",
+    link: "https://skypdf.yildizskylab.com",
+    logo: skylabLogo,
+  },
+  {
     name: "SKYSEC Articles",
     link: "https://skysec.yildizskylab.com",
     logo: skysecLogo,
@@ -58,6 +63,11 @@ const sitesData = [
   {
     name: "DURUM: SKY LAB SUNUCU DURUMLARI",
     link: "https://status.yildizskylab.com",
+    logo: skylabLogo,
+  },
+  {
+    name: "SKYPDF: SKY LAB PDF DÜZENLEYİCİ",
+    link: "https://skypdf.yildizskylab.com",
     logo: skylabLogo,
   },
   {
