@@ -15,6 +15,7 @@ import defnekuru from '../Assets/Images/BoardMembers2526/defnekuru.JPG';
 import muzafferemer from '../Assets/Images/BoardMembers2526/muzafferemer.png';
 import nidaerdem from '../Assets/Images/BoardMembers2526/nidaerdem.jpeg';
 import mustafayildiz from '../Assets/Images/BoardMembers2526/mustafayildiz.JPG';
+import nisayarentopus from '../Assets/Images/BoardMembers2526/nisayarentopus.jpeg';
 import skylab from '../Assets/Images/skylab-logo.png';
 
 
@@ -89,7 +90,7 @@ export const boardMembers2526 = [
       firstName: 'Nisa Yaren',
       lastName: 'Topus',
       department: 'Başkan Yardımcısı',
-      photo: skylab,
+      photo: nisayarentopus,
       linkedin: 'https://www.linkedin.com/in/nisa-yaren-topus-282658368/',
     },
     {
